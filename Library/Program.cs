@@ -12,8 +12,8 @@ class Program
         books.Add(new Book("C# for beginners", "Bill Gates", "1234567"));
         books.Add(new Book("Ultimate C#", "Microsoft", "2233445"));
 
-        members.Add(new Member(1, "John Smith", "1 High Street", 0790090090));
-        members.Add(new Member(2, "Mary Jones", "102 Garden Road", 0790345666));
+        members.Add(new Member(1, "John Smith", "1 High Street", "0790090090"));
+        members.Add(new Member(2, "Mary Jones", "102 Garden Road", "0790345666"));
 
         // Display all items within the Book list
         foreach (Book book in books)
